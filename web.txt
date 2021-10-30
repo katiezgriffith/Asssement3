@@ -1,0 +1,12 @@
+*How does the internet work? What happens when you click on a link? *
+
+The internet simply moves data from one place to another, and then back to you in a response so that we can do many
+different things on the internet, including chatting, accessing our bank, and sharing information. The internet is essentially a connection of 
+millions and millions of computers interacting and sharing.
+
+
+When you click on a link, your browser and operating system figure out where you've clicked aka a request is sent. Your browser takes that URL, breaks out the name of the web site, and 
+then uses the DNS to get an IP address for the site. Your browser then opens a connection to the web site over IP.  It asks to "speak" to the HTTP server (or, for secure connections, HTTPS) which 
+then provides the next web page in HTML that your browser renders.
+
+
