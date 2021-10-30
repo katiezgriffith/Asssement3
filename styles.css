@@ -5,14 +5,43 @@ body {
   max-width: 500px;
   margin: 2rem auto;
   font-family: "Open Sans", sans-serif;
+  justify-content: center;
+  text-align: center;
+  background-image: url("prettysky.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  
 }
 
 nav {
 	border-bottom: 2px solid orange;
+	background-color: thistle;
+	font-size: larger;
+	text-align: center;
 }
 
+h1 {
+	color:maroon;
+	justify-content: center;
+	text-align: center;
+	font-size:  60pt;
+	font-family:Apple Chancery, cursive ;
+
+}
 ol {
 	padding-left: 0;
+}
+
+.button {
+	border: none;
+    border-radius: 10px;
+    padding: 5px 15px;
+    font-weight: bold;
+    background: yellow;
+    color: blackS;
+    margin-left: 20px;
+    vertical-align: middle;
+	font-size: 12pt;
 }
 
 .crumb {
@@ -35,4 +64,9 @@ input {
 
 img {
 	max-width: 300px;
+}
+
+checkbox {
+	color: transparent;
+
 }

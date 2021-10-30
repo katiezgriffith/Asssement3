@@ -19,3 +19,6 @@ let ritualButton = document.querySelector('#ritual')
     ritualButton.addEventListener('click', () => {
         alert("Christmas day with my whole family!")
         })   
+
+
+
