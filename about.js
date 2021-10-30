@@ -2,13 +2,19 @@ console.log("hello world");
 
 
 
+
 function handleSubmit(evt) {
 	evt.preventDefault();
 	
-	console.log('form submit');
+	alert("Successful!");
 }
 
 
 let form = document.querySelector('form#contact');
+form.addEventListener("click", handleSubmit)
 
-form.addEventListener('submit', handleSubmit);
+
+const image = document.querySelector('#image')
+image.addEventListener('mouseover', () => {
+	alert("Give User compliment");
+})
