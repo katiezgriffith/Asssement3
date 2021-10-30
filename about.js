@@ -10,7 +10,7 @@ function handleSubmit(evt) {
 }
 
 
-let form = document.querySelector('form#contact');
+let form = document.querySelector('form#submit');
 form.addEventListener("click", handleSubmit)
 
 
