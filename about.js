@@ -16,5 +16,5 @@ form.addEventListener("click", handleSubmit)
 
 const image = document.querySelector('#image')
 image.addEventListener('mouseover', () => {
-	alert("Give User compliment");
+	alert("You are great!");
 })
